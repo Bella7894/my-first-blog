@@ -12,11 +12,12 @@
             <h2><a href="">My first post</a></h2>
             <p> Avez-vous déjà eu l'impression que la technologie prend une place de plus en plus importante.</p>
         </div>
-
+      {% for post in posts %}
         <div>
-            <p>django Girls</p>
-            <h2><a href="">Mon second post</a></h2>
-            <p>Welcome to the Django Girls Tutorial! We are happy to see you here</p>
+            <p>{{django Girls}}</p>
+            <h2><a href="">{{Mon second post}}</a></h2>
+            <p>{{Welcome to the Django Girls Tutorial! We are happy to see you here}}</p>
         </div>
+      {% endfor %}
     </body>
 </html>
