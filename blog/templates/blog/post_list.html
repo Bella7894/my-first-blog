@@ -9,15 +9,16 @@
 
         <div>
             <p>Bienvenue chez Bella</p>
-            <h2><a href="">My first post</a></h2>
-            <p> Avez-vous déjà eu l'impression que la technologie prend une place de plus en plus importante.</p>
+           
         </div>
       {% for post in posts %}
         <div>
             <p>django Girls</p>
-            <h2><a href="">{{Mon second post}}</a></h2>
-            <p>{{Welcome to the Django Girls Tutorial! We are happy to see you here}}</p>
+            <h2><a href="">{{post.title}}</a></h2>
+            <p>{{post.text}}</p>
         </div>
       {% endfor %}
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     </body>
 </html>
