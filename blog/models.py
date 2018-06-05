@@ -1,6 +1,5 @@
 from django.db import models
 from django.utils import timezone
-from .models import Binta
 
 class Binta(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
