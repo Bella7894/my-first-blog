@@ -25,7 +25,7 @@ SECRET_KEY = 'q2#4wri#c)=%6ctd#j%#v9=o(n!wkyk&*uo62u+6@g2+l3!49+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '<bella>.pythonanywhere.com'] 
+ALLOWED_HOSTS = ['127.0.0.1', 'bella7894.pythonanywhere.com'] 
 
 
 # Application definition
