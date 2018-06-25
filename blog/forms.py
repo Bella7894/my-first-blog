@@ -1,8 +1,8 @@
 from django import forms
-from .models import post 
+from .models import Binta
 
 class PostForm(forms.ModelForm):
 
     class Meta:
-        model = Post
+        model = Binta
         fields = ('title', 'text',)
